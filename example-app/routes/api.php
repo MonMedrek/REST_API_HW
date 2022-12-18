@@ -20,3 +20,4 @@ Route::get('People',[PeopleController::class,'show']);
 Route::get('People',[PeopleController::class,'update']);
 Route::get('People',[PeopleController::class,'destroy']);
 Route::get('People',[PeopleController::class,'create']);
+Route::permanentRedirect('/medrek/308772/People', '/People');
